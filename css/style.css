@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 150px;
+}
+.box1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.box2 {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.box3 {
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: darkorange;
+  height: 50px;
+}
+
+.box4 {
+  background-color: darksalmon;
+}

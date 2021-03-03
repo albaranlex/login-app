@@ -2,7 +2,8 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  grid-template-columns: 48% 6% 48%;
   grid-template-rows: 1fr;
   width: 500px;
   height: 300px;
@@ -20,7 +21,7 @@
 .box1 div {
   height: 30px;
   padding: 10px;
-  margin: 30px;
+  margin: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: white;
@@ -38,6 +39,7 @@
 .twitter-button {
   background-color: #64cdf1;
 }
+
 .logo {
   border-right: 1px solid rgb(0, 0, 0, 0.2);
   margin-right: 10px;
@@ -45,18 +47,38 @@
 }
 
 .box2 {
-  background-color: blue;
-  height: 100%;
-  width: 100%;
+  position: relative;
+}
+.box2:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  border-right: 1px solid #cfc7c0;
+  top: 10%;
+  bottom: 10%;
 }
 
 .box3 {
-  display: flex;
-  justify-content: flex-end;
-  background-color: darkorange;
-  height: 50px;
 }
 
 .box4 {
-  background-color: darksalmon;
+  text-align: end;
+  background-color: #63ccf3;
+}
+
+.box5 {
+  position: relative;
+}
+.box5:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  border-right: 1px solid #cfc7c0;
+  top: 10%;
+  bottom: 10%;
+}
+
+.box6 {
+  font-weight: bold;
+  background-color: #63ccf3;
 }

@@ -21,7 +21,7 @@
 .box1 div {
   height: 30px;
   padding: 10px;
-  margin: 20px;
+  margin: 25px 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: white;
@@ -42,20 +42,16 @@
 
 .logo {
   border-right: 1px solid rgb(0, 0, 0, 0.2);
+  margin: auto;
   margin-right: 10px;
   padding-right: 15px;
 }
 
 .box2 {
-  position: relative;
-}
-.box2:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  border-right: 1px solid #cfc7c0;
-  top: 10%;
-  bottom: 10%;
+  width: 2px;
+  height: 200px;
+  background: gray;
+  margin: 20px auto 0 auto;
 }
 
 .box3 {
@@ -67,15 +63,10 @@
 }
 
 .box5 {
-  position: relative;
-}
-.box5:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  border-right: 1px solid #cfc7c0;
-  top: 10%;
-  bottom: 10%;
+  width: 2px;
+  height: 20px;
+  background: gray;
+  margin: 10px auto 0 auto;
 }
 
 .box6 {

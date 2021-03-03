@@ -122,6 +122,10 @@ h1 {
   font-weight: 550;
 }
 
+input:focus {
+  outline: none;
+}
+
 .form-logo {
   color: #4d4a5b;
   border: none;

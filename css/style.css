@@ -102,17 +102,16 @@ h1 {
 
 /* _textfields */
 .text-container {
+  color: #4d4a5b;
+  background-color: transparent;
   border-bottom: 1px rgb(0, 0, 0, 0.2) solid;
   margin: 20px 10px;
   padding-bottom: 5px;
 }
 .text-container input {
   border: none;
-  background-color: transparent;
   width: 80%;
   margin-left: 10px;
-  font-size: 12px;
-  font-weight: 550;
 }
 
 input:focus {
@@ -120,11 +119,7 @@ input:focus {
 }
 
 .form-logo {
-  color: #4d4a5b;
   border: none;
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
 }
 
 /* _remember-me */
@@ -136,7 +131,7 @@ input:focus {
 
 .remember-me p {
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 0.8em;
   font-weight: bold;
   color: #4d4a5b;
 }

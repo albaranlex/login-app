@@ -2,6 +2,7 @@
 
 body {
   background: linear-gradient(to left, #ffffff 50%, #f3f0f0 50%);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
   background-color: #fcfcfc;
@@ -14,19 +15,17 @@ body {
   margin: 10% auto;
 }
 
-/* Upper Left Box */
-
+/* UPPER LEFT BOX */
 .box1 div {
   height: 25px;
   padding: 10px;
   margin: 25px 25px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 15px;
   color: white;
 }
 
-/* Buttons Layout */
+/* _buttons-alignment */
 .fb-button,
 .google-button,
 .twitter-button {
@@ -35,7 +34,7 @@ body {
   align-items: center;
 }
 
-/* Buttons bg_color */
+/* _buttons-bgcolor */
 .fb-button {
   background-color: #4f7dbd;
 }
@@ -48,8 +47,7 @@ body {
   background-color: #64cdf1;
 }
 
-/* Icons on the Buttons */
-
+/* _icons */
 .logo {
   display: flex;
   justify-content: flex-start;
@@ -60,26 +58,27 @@ body {
   padding-right: 15px;
 }
 
-/* Vertical Line Divider */
+/* _vertical line divider */
 .box2 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
+
 .box2 .circle {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-color: white;
-  border: 1px solid rgb(0, 0, 0, 0.2);
-  color: rgb(0, 0, 0, 0.2);
   height: 15px;
   width: 15px;
-  border-radius: 100%;
   padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0, 0.2);
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 100%;
   z-index: 1;
 }
 
@@ -92,19 +91,16 @@ body {
   margin: 0;
 }
 
-/* Upper Right Box - Form Field*/
-
-/* Sign In */
+/* UPPER RIGHT BOX - FORM FIELD*/
+/* _sign-in */
 h1 {
   margin-top: 35px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #4d4a5b;
 }
 
-/* Text Fields */
-
+/* _textfields */
 .text-container {
   border-bottom: 1px rgb(0, 0, 0, 0.2) solid;
   margin: 20px 10px;
@@ -130,7 +126,7 @@ input:focus {
   background-color: transparent;
 }
 
-/* Remember Me Section */
+/* _remember-me */
 .remember-me {
   display: flex;
   justify-content: center;
@@ -139,12 +135,12 @@ input:focus {
 
 .remember-me p {
   margin-right: 10px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: bold;
   color: #4d4a5b;
 }
 
+/* _log-in button */
 button {
   height: 30px;
   width: 80px;
@@ -155,40 +151,39 @@ button {
   border-radius: 5px;
 }
 
-/* Footer */
+/* FOOTER */
 
+/* general layout of links */
 a {
   text-decoration: none;
   color: #58a4df;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 11px;
 }
-.box4 {
-  background-color: rgba(173, 216, 230, 0.3);
+
+/* general alignment */
+.box4,
+.box5,
+.box6 {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  background-color: rgba(173, 216, 230, 0.3);
   height: 20px;
 }
 
-.box5 {
-  background-color: rgba(173, 216, 230, 0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* flex alignment */
+.box4 {
+  justify-content: flex-end;
+}
+.box6 {
+  justify-content: flex-start;
 }
 
+/* short vertical line */
 .box5 .short-line {
-  transform: translate(-1px, 1%);
+  justify-content: center;
+  transform: translate(13px, 1%);
   background-color: rgb(0, 0, 0, 0.2);
   height: 12px;
   width: 1px;
-}
-
-.box6 {
-  background-color: rgba(173, 216, 230, 0.3);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
